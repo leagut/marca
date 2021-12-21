@@ -1,0 +1,161 @@
+@font-face {
+    font-family:BrunoAceSC-Regular;
+    src: url(./fonts/BrunoAceSC-Regular.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #1F7BAE;
+    margin: 0 auto;
+    width: 1440px;
+    height: 173px;
+    padding-top: 31px;
+    padding-left: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cirlce{
+    background-color:#ffffff;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+header p{
+    color: white;
+    font-family:BrunoAceSC-Regular;
+    font-size: 48PX;
+    margin-left: 57px;
+    
+}
+
+.central{
+    height: 448px;
+    width: 404px;
+    background-color: #1F7BAE;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    padding-top: 20px;
+
+}
+
+.centralito{
+    margin-left: 25px;
+}
+.central p {
+    color: #ffffff;
+    font-family:BrunoAceSC-Regular;
+    font-size: 50px;
+}
+
+.cuna p{
+    color: rgb(255, 255, 255);
+    font-family:Italianno;
+    font-size: 21px;
+    margin-left: 30px;
+}
+.solito{
+    border: 1px solid rgb(2, 2, 3);
+    width: 650px;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+
+.solito2{
+    border: 1px solid rgb(0, 0, 0);
+    width: 850px;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+
+.central2{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cajah{
+    border: 1px solid rgb(2, 2, 3);
+    width: 191px;
+    height: 98px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.caja_padre{
+    width: 400px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.central2 p{
+    color: #1F7BAE;
+    font-family: Lexend;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.cajah1{
+    background-color: #1F7BAE;
+    
+    
+    
+}
+
+.cajah1 p{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Lexend;
+    margin: 0 auto;
+}
+
+.cajah2 p{
+    color: #1F7BAE;
+    font-size: 20px;
+    font-family: Lexend;
+    margin: 0 auto;
+}
+
+.cajasdimension{
+    width: 288px;
+    height: 288px;
+    margin: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajota2{
+    width: 700px;
+}
+
+footer{
+    background-color: #1F7BAE;
+    margin: 0 auto;
+    width: 1440px;
+    height: 260px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
